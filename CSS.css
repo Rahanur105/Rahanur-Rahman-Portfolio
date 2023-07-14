@@ -1,0 +1,133 @@
+body{
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Reggae One', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Tiro Kannada', serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+
+h1::before{
+    content: "👨‍💻";
+}
+h1::after{
+    content: "👨‍💻";
+}
+h2::before{
+    content: "👨‍💻";
+}
+h2::after{
+    content: "👨‍💻";
+}
+.wd::before{
+    content: "🌐";
+}
+.wd::after{
+    content: "🌐";
+}
+
+.rr1{
+    color: gold;
+}
+h2{
+    font-size: 40px;
+}
+.details-1{
+    font-size: 20px;
+}
+.details-2{
+    font-size: 20px;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.back{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.back-2{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.brac1{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+   text-align: center;
+
+}
+
+.brac2{
+        width: 40%;
+        height: 100%;
+        float: left;
+        margin-right: 5%;
+        padding-right: 5%;
+        padding-top: 5%;
+       text-align: center;
+}
+
+
+.h2-center{
+    
+    color: red;
+}
+.hero{
+    color: blue;
+}
+.wd{
+   
+    color: orange;
+    font-size: 25px;
+}
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#CSE{
+    margin-left: 40%;
+    
+}
+.last-work{
+    margin-top: 20%;
+}
+
+.link-btn{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    border-radius: 30px;
+    padding: 2px 10px;
+    background-image: linear-gradient(yellow, orange );
+}
+.final-work{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+}
+.to-do{
+    color:  #8B56B7;
+    font-size: 40px;
+    text-align: center;
+}
